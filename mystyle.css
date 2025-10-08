@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: aliceblue;
+}
+
+header {
+  background-color: #075e54;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #128c7e;
+}
+
+#notesContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.note {
+  background-color: #dcf8c6;
+  padding: 15px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.note h3 {
+  margin: 0 0 10px;
+  color: #075e54;
+}
+
+.note p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  color: #888;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: red;
+}
